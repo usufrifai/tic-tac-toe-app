@@ -4,7 +4,7 @@ import {create, act} from 'react-test-renderer';
 import Square from "../../atoms/square";
 
 describe('Board', () => {
-    it('should render  Board Component', () => {
+    it('Board should be rendered', () => {
         const component = create(
             <Board
             squares={['X', 'O', 'O', 'X', 'X', 'O', 'X', 'O', 'O']}
@@ -16,7 +16,7 @@ describe('Board', () => {
           expect(tree).toMatchSnapshot();
     });
 
-    it('should render  with Game Over', () => {
+    it('Board should be rendered with Game Over message', () => {
         const component = create(
             <Board 
             winnerMessage="Game Draw"

@@ -3,7 +3,7 @@ import Square from './index';
 import renderer from 'react-test-renderer';
 
 describe('Square', () => {
-    it('should render  Square Component', () => {
+    it('Square  should be rendered', () => {
         const component = renderer.create(
             <Square 
                onClick={jest.fn()}
@@ -13,7 +13,7 @@ describe('Square', () => {
           expect(tree).toMatchSnapshot();
     });
 
-    it('should render  Square Component with O', () => {
+    it('Square  should be rendered with O', () => {
         const component = renderer.create(
             <Square 
                value="O"

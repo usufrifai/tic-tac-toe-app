@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`History should render  History Component 1`] = `
+exports[`History table History table should be rendered 1`] = `
 <div
   className="history-table-container"
 >

@@ -9,7 +9,7 @@ jest.mock('../../hooks/registrationHook');
 
 describe('Game', () => {
 
-    test('should render  Game Component with Registration form', () => {
+    test('Game Component with Registration form should be rendered', () => {
         useRegistrationHook.mockReturnValue({users: {}});
         const component = renderer.create(
             
@@ -20,7 +20,7 @@ describe('Game', () => {
                 player= 'Rifay'
             />
         );
-        
+
         const instance = component.root;
         const registraionComponent = instance.findByType(Registration);
         let tree = component.toJSON();
@@ -29,7 +29,7 @@ describe('Game', () => {
         expect(tree).toMatchSnapshot();
     });
 
-    test('should render  Game Component with Board form', () => {
+    test('Game Component with Board should be rendered', () => {
 
         useRegistrationHook.mockReturnValue({
             users:{firstPlayer: 'Yousuf', secondPlayer:'Rifay'}       
@@ -50,4 +50,5 @@ describe('Game', () => {
           expect(board).toBeDefined();
           expect(tree).toMatchSnapshot();
     });
+
 });

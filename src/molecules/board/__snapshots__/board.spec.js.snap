@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Board should render  Board Component 1`] = `
+exports[`Board Board should be rendered 1`] = `
 <div
   className="board-container"
 >
@@ -118,7 +118,7 @@ exports[`Board should render  Board Component 1`] = `
 </div>
 `;
 
-exports[`Board should render  with Game Over 1`] = `
+exports[`Board Board should be rendered with Game Over message 1`] = `
 <div
   className="board-container"
 >

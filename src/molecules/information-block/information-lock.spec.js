@@ -4,7 +4,7 @@ import { Button } from 'react-bootstrap';
 import { create, act } from 'react-test-renderer';
 
 describe('InformationlBock', () => {
-    it('should render  InformationlBock Component', () => {
+    it('InformationlBock should be rendered', () => {
         const component = create(
             <InformationlBock 
             winnerMessage="Game Draw"

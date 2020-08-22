@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`InformationlBock should render  InformationlBock Component 1`] = `
+exports[`InformationlBock InformationlBock should be rendered 1`] = `
 <div
   className="information-container"
 >

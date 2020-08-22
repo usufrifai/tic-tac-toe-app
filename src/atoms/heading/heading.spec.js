@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 
 
 describe('Header', () => {
-    it('should render  Heading Component', () => {
+    it('Heading should be rendered', () => {
         const component = renderer.create(
             <Heading title="tic tac toe"/>
           );

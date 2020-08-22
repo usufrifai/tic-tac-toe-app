@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Square should render  Square Component 1`] = `
+exports[`Square Square  should be rendered 1`] = `
 <div
   className="squares"
   onClick={[MockFunction]}
@@ -12,7 +12,7 @@ exports[`Square should render  Square Component 1`] = `
 </div>
 `;
 
-exports[`Square should render  Square Component with O 1`] = `
+exports[`Square Square  should be rendered with O 1`] = `
 <div
   className="squares O"
   onClick={[MockFunction]}

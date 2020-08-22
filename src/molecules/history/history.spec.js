@@ -2,8 +2,8 @@ import React from 'react';
 import History from './index';
 import renderer from 'react-test-renderer';
 
-describe('History', () => {
-    it('should render  History Component', () => {
+describe('History table', () => {
+    it('History table should be rendered', () => {
         const history =  [
             {
                 'playerOne': 'Yousuf',

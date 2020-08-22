@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Game should render  Game Component with Board form 1`] = `
+exports[`Game Game Component with Board should be rendered 1`] = `
 <div
   className="game-container"
 >
@@ -242,7 +242,7 @@ exports[`Game should render  Game Component with Board form 1`] = `
 </div>
 `;
 
-exports[`Game should render  Game Component with Registration form 1`] = `
+exports[`Game Game Component with Registration form should be rendered 1`] = `
 <div
   className="game-container"
 >
