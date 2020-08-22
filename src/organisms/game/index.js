@@ -7,7 +7,7 @@ import History from '../../molecules/history';
 import './index.css';
 import  useGameHook from '../../hooks/gameHook';
 import  useRegistrationHook from '../../hooks/registrationHook';
-import  useHistoryHook from '../../hooks/historyHooks'
+import  useHistoryHook from '../../hooks/historyHook'
 
 export const Game = () => {
 

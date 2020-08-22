@@ -34,11 +34,9 @@ const useGameHook = ({users, postHistory}) => {
     const winner = calculateWinner(selectedSqures[stepNumber]);
    
     const onClickHandler = index => {
-        console.log('index', index)
         const historyPoint = selectedSqures.slice(0, stepNumber + 1);
         const current = historyPoint[stepNumber];
         const squares = [...current];
-        console.log('use', squares)
         if (winner || squares[index]) return;
         squares[index] = xo;
         setSelectedSqures([...historyPoint, squares]);

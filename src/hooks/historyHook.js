@@ -8,7 +8,7 @@ const useHistoryHook = () => {
 
     const getHisotry = async () => {
         const data = await get('/history')
-        if (response.ok) setHistory(data)
+        if (response.status === 200) setHistory(data)
     }
 
     const postHistory = async (requestody) => {
@@ -28,6 +28,7 @@ const useHistoryHook = () => {
         history,
         postHistory,
         getHisotry,
+        setHistory
     }
 
 }
