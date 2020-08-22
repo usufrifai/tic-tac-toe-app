@@ -1,0 +1,18 @@
+
+.trophy{
+    height: auto;
+    width: 100%;
+}
+.information-container{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 769px) {
+    .trophy {
+        width: 50%;
+    }
+    .information-container{
+        padding: 0 100px;
+    }
+}

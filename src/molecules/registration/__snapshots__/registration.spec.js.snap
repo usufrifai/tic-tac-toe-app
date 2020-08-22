@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registration should render  Registration Component 1`] = `
+<form
+  className="registration-container"
+>
+  <div
+    className="list-group"
+    onKeyDown={[Function]}
+  >
+    <div
+      className="list-group-item list-group-item-danger"
+      data-rb-event-key={null}
+      disabled={false}
+      onClick={[Function]}
+    >
+      Please provide unique names and names cannot be empty 
+    </div>
+  </div>
+  <div
+    className="heading"
+    style={
+      Object {
+        "width": undefined,
+      }
+    }
+  >
+    <h3>
+      Register
+    </h3>
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="form-label"
+      htmlFor="playerOne"
+    >
+      <h4>
+         Player One 
+      </h4>
+    </label>
+    <input
+      className="field form-control"
+      id="playerOne"
+      onChange={[Function]}
+      placeholder="First Player Name"
+      required={true}
+      style={
+        Object {
+          "fontSize": "20px",
+          "height": "50px",
+        }
+      }
+      type="text"
+      value="Yousuf"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="form-label"
+      htmlFor="playerTwo"
+      style={
+        Object {
+          "marginTop": "5px",
+        }
+      }
+    >
+      <h4>
+         Player Two 
+      </h4>
+    </label>
+    <input
+      className="form-control"
+      id="playerTwo"
+      onChange={[Function]}
+      placeholder="Second Player Name"
+      required={true}
+      style={
+        Object {
+          "fontSize": "20px",
+          "height": "50px",
+        }
+      }
+      type="text"
+      value="Rismi"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <button
+      className="btn btn-warning"
+      disabled={false}
+      onClick={[Function]}
+      style={
+        Object {
+          "fontSize": "20px",
+          "height": "50px",
+        }
+      }
+      type="submit"
+    >
+      Start Game
+    </button>
+  </div>
+</form>
+`;

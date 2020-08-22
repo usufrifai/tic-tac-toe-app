@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`History should render  History Component 1`] = `
+<div
+  className="history-table-container"
+>
+  <div
+    className="heading"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <h3>
+      Game History
+    </h3>
+  </div>
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <thead>
+      <tr>
+        <th>
+          #
+        </th>
+        <th>
+          Player One
+        </th>
+        <th>
+          Player Two
+        </th>
+        <th>
+          Winner
+        </th>
+        <th>
+          Date
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          1
+        </td>
+        <td>
+          Yousuf
+        </td>
+        <td>
+          Fahma
+        </td>
+        <td>
+          Yousuf
+        </td>
+        <td>
+          5-19-2022
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          Rifay
+        </td>
+        <td>
+          Ayash
+        </td>
+        <td>
+          Ayash
+        </td>
+        <td>
+          5-19-2022
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

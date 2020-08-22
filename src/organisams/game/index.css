@@ -1,0 +1,32 @@
+
+.game{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.history-table-container {
+    padding: 1px;
+}
+
+@media only screen and (min-width: 769px) {
+    .game {
+        display: flex;
+
+    }
+    .game div {
+        flex: 50% 0 0;
+    }
+
+    .history-table-container {
+        padding: 0 50px;
+    }
+    
+}
+.row {
+    margin-top: 50px;
+}
+.game-container {
+    margin: 0 10px;
+}
+

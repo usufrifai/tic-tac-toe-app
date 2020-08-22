@@ -1,0 +1,17 @@
+.squares {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    cursor: pointer;
+  }
+
+.X {
+    color: #ffc107;
+  }
+
+.O {
+    color: #454a4f;
+  }
+  

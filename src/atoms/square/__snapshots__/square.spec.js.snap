@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Square should render  Square Component 1`] = `
+<div
+  className="squares"
+  onClick={[MockFunction]}
+>
+  <span>
+     
+     
+  </span>
+</div>
+`;
+
+exports[`Square should render  Square Component with O 1`] = `
+<div
+  className="squares O"
+  onClick={[MockFunction]}
+>
+  <span>
+     
+    O
+     
+  </span>
+</div>
+`;

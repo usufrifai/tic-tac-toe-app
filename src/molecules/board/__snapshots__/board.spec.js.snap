@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board should render  Board Component 1`] = `
+<div
+  className="board-container"
+>
+  <div
+    className="heading"
+    style={
+      Object {
+        "width": undefined,
+      }
+    }
+  >
+    <h3>
+      Game
+    </h3>
+  </div>
+  <div
+    className="board"
+  >
+    <div
+      className="squares X"
+      onClick={[Function]}
+    >
+      <span>
+         
+        X
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+    <div
+      className="squares X"
+      onClick={[Function]}
+    >
+      <span>
+         
+        X
+         
+      </span>
+    </div>
+    <div
+      className="squares X"
+      onClick={[Function]}
+    >
+      <span>
+         
+        X
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+    <div
+      className="squares X"
+      onClick={[Function]}
+    >
+      <span>
+         
+        X
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+  </div>
+  <h5
+    className="playerName"
+  >
+    Hey Rifay its your turn
+  </h5>
+</div>
+`;
+
+exports[`Board should render  with Game Over 1`] = `
+<div
+  className="board-container"
+>
+  <div
+    className="heading"
+    style={
+      Object {
+        "width": undefined,
+      }
+    }
+  >
+    <h3>
+      Game
+    </h3>
+  </div>
+  <div
+    className="board"
+  >
+    <div
+      className="squares X"
+      onClick={[Function]}
+    >
+      <span>
+         
+        X
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+    <div
+      className="squares X"
+      onClick={[Function]}
+    >
+      <span>
+         
+        X
+         
+      </span>
+    </div>
+    <div
+      className="squares X"
+      onClick={[Function]}
+    >
+      <span>
+         
+        X
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+    <div
+      className="squares X"
+      onClick={[Function]}
+    >
+      <span>
+         
+        X
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+    <div
+      className="squares O"
+      onClick={[Function]}
+    >
+      <span>
+         
+        O
+         
+      </span>
+    </div>
+  </div>
+  <h5
+    className="playerName"
+  >
+     Game Over 
+  </h5>
+</div>
+`;
