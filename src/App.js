@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Game from '../src/organisams/game'
+import Game from './organisms/game'
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
