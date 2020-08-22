@@ -22,6 +22,7 @@ const useRegistrationHook = () => {
         setFirstPlayer("");
         setSecondPlayer("");
     } 
+    
     return {
        users,
        registationError,

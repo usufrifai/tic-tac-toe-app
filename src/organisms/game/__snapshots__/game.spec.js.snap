@@ -1,5 +1,247 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Game should render  Game Component with Board form 1`] = `
+<div
+  className="game-container"
+>
+  <div>
+    <h1
+      style={
+        Object {
+          "marginTop": "30px",
+          "textAlign": "center",
+        }
+      }
+    >
+       Tic Tac Toe
+    </h1>
+  </div>
+  <div
+    className="game"
+  >
+    <div>
+      <div
+        className="board-container"
+      >
+        <div
+          className="heading"
+          style={
+            Object {
+              "width": undefined,
+            }
+          }
+        >
+          <h3>
+            Game
+          </h3>
+        </div>
+        <div
+          className="board"
+        >
+          <div
+            className="squares"
+            onClick={[Function]}
+          >
+            <span>
+               
+               
+            </span>
+          </div>
+          <div
+            className="squares"
+            onClick={[Function]}
+          >
+            <span>
+               
+               
+            </span>
+          </div>
+          <div
+            className="squares"
+            onClick={[Function]}
+          >
+            <span>
+               
+               
+            </span>
+          </div>
+          <div
+            className="squares"
+            onClick={[Function]}
+          >
+            <span>
+               
+               
+            </span>
+          </div>
+          <div
+            className="squares"
+            onClick={[Function]}
+          >
+            <span>
+               
+               
+            </span>
+          </div>
+          <div
+            className="squares"
+            onClick={[Function]}
+          >
+            <span>
+               
+               
+            </span>
+          </div>
+          <div
+            className="squares"
+            onClick={[Function]}
+          >
+            <span>
+               
+               
+            </span>
+          </div>
+          <div
+            className="squares"
+            onClick={[Function]}
+          >
+            <span>
+               
+               
+            </span>
+          </div>
+          <div
+            className="squares"
+            onClick={[Function]}
+          >
+            <span>
+               
+               
+            </span>
+          </div>
+        </div>
+        <h5
+          className="playerName"
+        >
+          Hey Yousuf its your turn
+        </h5>
+      </div>
+    </div>
+    <div>
+      <div
+        className="information-container"
+      >
+        <div
+          className="heading"
+          style={
+            Object {
+              "width": undefined,
+            }
+          }
+        >
+          <h3>
+            Information
+          </h3>
+        </div>
+        <div
+          className="list-group"
+          onKeyDown={[Function]}
+        >
+          <div
+            className="list-group-item list-group-item-warning"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            Player One : 
+            Yousuf
+          </div>
+          <div
+            className="list-group-item"
+            data-rb-event-key={null}
+            disabled={false}
+            onClick={[Function]}
+          >
+            Player Two : 
+            Rifay
+          </div>
+        </div>
+        <img
+          alt="Winner"
+          className="trophy"
+          src="winner.gif"
+        />
+        ;
+        <h4 />
+        <button
+          className="btn btn-warning"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Start New Game
+        </button>
+         
+        <button
+          className="btn btn-secondary"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Play Again
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="history-table-container"
+  >
+    <div>
+      <div
+        className="history-table-container"
+      >
+        <div
+          className="heading"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <h3>
+            Game History
+          </h3>
+        </div>
+        <table
+          className="table table-striped table-bordered table-hover"
+        >
+          <thead>
+            <tr>
+              <th>
+                #
+              </th>
+              <th>
+                Player One
+              </th>
+              <th>
+                Player Two
+              </th>
+              <th>
+                Winner
+              </th>
+              <th>
+                Date
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Game should render  Game Component with Registration form 1`] = `
 <div
   className="game-container"
@@ -59,7 +301,6 @@ exports[`Game should render  Game Component with Registration form 1`] = `
               }
             }
             type="text"
-            value=""
           />
         </div>
         <div
@@ -91,7 +332,6 @@ exports[`Game should render  Game Component with Registration form 1`] = `
               }
             }
             type="text"
-            value=""
           />
         </div>
         <div

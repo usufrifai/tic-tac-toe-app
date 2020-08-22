@@ -3,7 +3,6 @@ import Board from '../../molecules/board';
 import InformationlBock from '../../molecules/information-block';
 import Registration from '../../molecules/registration';
 import History from '../../molecules/history';
-//import {div, div, div} from 'react-bootstrap'
 import './index.css';
 import  useGameHook from '../../hooks/gameHook';
 import  useRegistrationHook from '../../hooks/registrationHook';
