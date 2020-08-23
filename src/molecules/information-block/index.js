@@ -17,7 +17,7 @@ const InformationlBock = ({ winnerMessage, users,  resetGame, newGame }) => {
               <ListGroup.Item>Player Two : {secondPlayer}</ListGroup.Item>
           </ListGroup>
           <img  className="trophy" src={Trophy} alt="Winner" />;
-          <h4>{ winnerMessage && winnerMessage}</h4>
+          <h4 className="blink_text">{ winnerMessage && winnerMessage}</h4>
           <Button  variant="warning" onClick={() => newGame()} disabled={active} >Start New Game</Button>{' '}
           <Button  variant="secondary" onClick={() => resetGame()} disabled={active}>Play Again</Button>
       </div>

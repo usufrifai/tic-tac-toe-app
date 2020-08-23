@@ -172,7 +172,9 @@ exports[`Game Game Component with Board should be rendered 1`] = `
           src="winner.gif"
         />
         ;
-        <h4 />
+        <h4
+          className="blink_text"
+        />
         <button
           className="btn btn-warning"
           disabled={false}
@@ -397,7 +399,9 @@ exports[`Game Game Component with Registration form should be rendered 1`] = `
           src="winner.gif"
         />
         ;
-        <h4 />
+        <h4
+          className="blink_text"
+        />
         <button
           className="btn btn-warning"
           disabled={true}

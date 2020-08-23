@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer';
 import Registration from '../../molecules/registration';
 import Board from '../../molecules/board'; 
 import  useRegistrationHook from '../../hooks/registrationHook';
+import InformationlBock from '../../molecules/information-block';
 
 jest.mock('../../hooks/registrationHook');
 

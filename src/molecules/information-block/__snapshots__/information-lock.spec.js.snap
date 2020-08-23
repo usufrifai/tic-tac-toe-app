@@ -45,7 +45,9 @@ exports[`InformationlBock InformationlBock should be rendered 1`] = `
     src="winner.gif"
   />
   ;
-  <h4>
+  <h4
+    className="blink_text"
+  >
     Game Draw
   </h4>
   <button

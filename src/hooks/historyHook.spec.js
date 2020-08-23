@@ -31,6 +31,7 @@ describe("useHistory", () => {
             'date' : '05-19-2022',
             'winner': 'Ayash'
         });
+        jest.runAllTimers();
         });
         expect(useFetch).toBeCalledWith('http://localhost:9000/api');
     });
@@ -54,7 +55,7 @@ describe("useHistory", () => {
 
       const { result } = renderHook(() => useHisotry());
 
-      act( async () =>   {
+       act( async () =>   {
          await  result.current.postHistory([{
             'playerOne': 'Rifay',
             'playerTwo': 'Ayash',
